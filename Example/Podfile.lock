@@ -1,0 +1,23 @@
+PODS:
+  - BaiduMapKit (5.2.0)
+  - SwiftPodsDemo (0.1.0):
+    - BaiduMapKit
+
+DEPENDENCIES:
+  - SwiftPodsDemo (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - BaiduMapKit
+
+EXTERNAL SOURCES:
+  SwiftPodsDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BaiduMapKit: 075465cf7134d0ebf81796b93a59d504c350d9a4
+  SwiftPodsDemo: cc3cb84a2510125b3f1c5798bda1a59b34a6af7a
+
+PODFILE CHECKSUM: 65df153b7055a0826a8ba8703956f86e64a8e28f
+
+COCOAPODS: 1.9.1

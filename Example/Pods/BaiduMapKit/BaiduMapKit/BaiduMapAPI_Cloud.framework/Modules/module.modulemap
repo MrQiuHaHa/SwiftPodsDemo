@@ -1,0 +1,8 @@
+framework module BaiduMapAPI_Cloud {
+    header "BMKCloudPOIList.h"
+    header "BMKCloudSearch.h"
+    header "BMKCloudSearchComponent.h"
+    header "BMKCloudSearchInfo.h"
+    header "BMKCloudVersion.h"
+    export *
+}

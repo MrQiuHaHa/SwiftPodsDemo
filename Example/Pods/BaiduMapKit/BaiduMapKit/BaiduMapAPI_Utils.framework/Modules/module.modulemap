@@ -1,0 +1,15 @@
+framework module BaiduMapAPI_Utils {
+    header "BMKFavPoiInfo.h"
+    header "BMKFavPoiManager.h"
+    header "BMKGeometry.h"
+    header "BMKNavigation.h"
+    header "BMKOpenOption.h"
+    header "BMKOpenPanorama.h"
+    header "BMKOpenPoi.h"
+    header "BMKOpenPoiOption.h"
+    header "BMKOpenRoute.h"
+    header "BMKOpenRouteOption.h"
+    header "BMKUtilsComponent.h"
+    header "BMKUtilsVersion.h"
+    export *
+}

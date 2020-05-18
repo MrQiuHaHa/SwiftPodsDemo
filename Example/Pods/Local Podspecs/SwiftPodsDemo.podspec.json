@@ -1,0 +1,33 @@
+{
+  "name": "SwiftPodsDemo",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftPodsDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/2574282239@qq.com/SwiftPodsDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "2574282239@qq.com": "2574282239@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/2574282239@qq.com/SwiftPodsDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftPodsDemo/Classes/**/*",
+  "static_framework": true,
+  "dependencies": {
+    "BaiduMapKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "$(inherited) -undefined dynamic_lookup",
+    "ENABLE_BITCODE": "NO"
+  },
+  "prepare_command": "sh mk_modulemap.sh Example/Pods/BaiduMapKit/BaiduMapKit"
+}
