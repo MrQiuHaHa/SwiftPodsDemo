@@ -1,9 +1,0 @@
-framework module BaiduMapAPI_Base {
-    header "BMKBaseComponent.h"
-    header "BMKGeneralDelegate.h"
-    header "BMKMapManager.h"
-    header "BMKTypes.h"
-    header "BMKUserLocation.h"
-    header "BMKVersion.h"
-    export *
-}
